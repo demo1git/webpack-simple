@@ -7,7 +7,7 @@
     "build": "webpack --progress",
     "start": "http-server",
     "preinstall": "npm install -g http-server",
-    "postinstall": "webpack --progress && mv dist/* ."
+    "postinstall": "ng build && mv dist/* ."
   },
   "keywords": [],
   "author": "",
