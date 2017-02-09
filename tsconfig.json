@@ -1,9 +1,18 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "baseUrl": "",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6"
-  },
-  "compileOnSave": false,
-  "include": ["./src", "./types/custom-typings.d.ts"]
+    "lib": ["es6", "dom"],
+    "mapRoot": "./",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "../dist/out-tsc",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  }
 }
