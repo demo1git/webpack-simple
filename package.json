@@ -24,9 +24,7 @@
     "inert": "^3.2.0",
     "reflect-metadata": "^0.1.8",
     "rxjs": "^5.0.1",
-    "zone.js": "^0.7.2"
-  },
-  "devDependencies": {
+    "zone.js": "^0.7.2",
     "@types/source-map": "^0.1.27",
     "@types/systemjs": "^0.19.31",
     "@types/uglify-js": "^2.6.28",
@@ -47,5 +45,8 @@
     "typescript": "^2.0.0",
     "typings": "^0.7.11",
     "webpack": "^2.2.0-rc.1"
+  },
+  "devDependencies": {
+   
   }
 }
