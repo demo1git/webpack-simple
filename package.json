@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress",
-    "start": "node server/index"
+    "start": "http-server",
+    "preinstall": "npm install -g http-server",
+    "postinstall": "webpack --progress && mv dist/* ."
   },
   "keywords": [],
   "author": "",
