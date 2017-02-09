@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "target": "es6"
+  },
+  "compileOnSave": false,
+  "include": ["./src", "./types/custom-typings.d.ts"]
+}
